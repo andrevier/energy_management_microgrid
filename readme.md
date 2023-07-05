@@ -53,8 +53,13 @@ The supervisory control architecture of MG EMS can be divided into two types, na
 where communication links are not always suitable.
 
 ## Bibliography
-### Previous reviews
-Several papers addressed different aspects of MGs, as protection and control schemes for MG, reactive power compensation techniques
+### AC microgrids versus DC microgrids
+
+### Previous reviews on control
+Several papers addressed different aspects of MGs as: protection and control schemes for MG; reactive power compensation techniques; control methods for inverter-based MGs; droop control techniques; control strategies for voltage and frequency-based regulation; control for DERs in MG; modeling, design, planning and architectures of hybrid renewable MGs; and a survey on AC and DC MGs. The literature also presents a review on homeostatic control-based energy efficient micro-generation systems; MG uncertainty quantification methods. 
+
+### Reviews on Energy Management System
+
 ## References
 ### ref 1 
 B. Kroposki, T. Basso, and R. DeBlasio, “Microgrid standards and technologies,” in 2008 IEEE Power and Energy Society General Meeting - Conversion and Delivery of Electrical Energy in the 21st Century, pp. 1–4, Jul 2008.
@@ -68,7 +73,7 @@ T. L. Vandoorn, J. C. Vasquez, J. De Kooning, J. M. Guerrero, and
 L. Vandevelde, “Microgrids: Hierarchical control and an overview of the control and reserve management strategies,” IEEE Industrial Electronics Magazine, vol. 7, no. 4, pp. 42–55, 2013
 
 ### ref 4
-<a id="#ref1" href="/These-On-energy-management-optimization-for-microgrids-enriched-with-renewable-energy-sources-2020-ZIA_Muhammad_Fahad.pdf"> [1] On energy management for microgrids.</a>
+[On energy management for microgrids enriched with renewable energy sources.](/These-On-energy-management-optimization-for-microgrids-enriched-with-renewable-energy-sources-2020-ZIA_Muhammad_Fahad.pdf)
 
 ### ref 5
 IEC 61970: Energy management system application program interface (EMS-API). IEC, 2005.
