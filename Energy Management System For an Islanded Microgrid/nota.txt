@@ -1,0 +1,33 @@
+Research on islanded MG EMS.
+
+Reviewed several works with mixed integer linear programming.
+Main critics to this method is that they increase computations.
+
+The reviewed works lack of solution for tidal turbine based islanded MG EMS, 
+battery degradation cost consideration, and demand response computations at
+each bus.
+
+The solution: this paper aims at developing integer-free second-order cone 
+programming based EMS (SOCP-EMS) model to minimize the operating and emission
+costs of islanded MGs.
+
+Case of study an isolated MG in Ouessant island.
+
+Model and design of the equations for each source and their limitations.
+
+Equation 20a establishes a non-convex NLP model.
+
+Define if a constraint is linear, non-linear, convex or non-convex.
+
+The solution implies relaxing non-convex constraints into convex ones. The 
+authors site references on how to do it for some of the examples that can 
+cause computational burden.
+
+SOCP is prefered over semi-definite programming because of its lower 
+computational complexity.
+
+Proposed cases to study the effectiveness of the EMS model.
+
+Cases to study emissions reduction.
+
+[2] Microgrids: Architectures and Control

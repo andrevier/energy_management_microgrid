@@ -1,0 +1,25 @@
+Os modelos para gerenciamento de energia buscam operação ótima da microrrede
+em uma direção, por exemplo: 
+- Redução do custo operacional.
+- Load shedding: redução ou interrupção da energia em uma região específica 
+para previnir a perda do sistema.
+
+Métodos:
+- Programação linear
+- Programação Não-linear;
+- Rule-based;
+
+The main objectives of the energy management system are to optimize the 
+operation, energy scheduling, and system reliability in both islanded and
+grid-connected microgrids for sustainable development. Hence, microgrid
+energy management system is a multi-objective topic that deals with 
+technical, economical, and environmental issues.
+
+The objective types of MG EMS depend on its operation mode, its centralized or
+descentralized operation, economical aspects, and the intermittent and 
+volatile nature of renewable energy sources.However, an extensive is still 
+required to manage the customer privacy issues, secure and reliable communica
+tion system cost management, particularly for decentralized operation.
+
+Microgrid system reliability analysis is not studied in detail for islanding
+and remote applications.

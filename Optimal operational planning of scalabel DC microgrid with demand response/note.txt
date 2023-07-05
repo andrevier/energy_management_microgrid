@@ -1,0 +1,126 @@
+What is the concept of plug-and-play microgrid?
+
+Demand response (DR) is becoming an integral part of power system and MGs 
+due to its applications in minimizing system operational cost, congestion 
+management, peak demand management, defer investment in power network, 
+system reliability, ancillary services. DR operation is achieved by utilizing
+smart meters, advanced metering infrastructure, and energy information systems. 
+An advanced metering infrastructure is used to collect data from metering 
+devices using home area network. These data log are sent to service provider by
+ wide area network for analysis in order to achieve energy cost and consumer 
+service optimization.
+
+DR is divided mainly into two types, price-based DR (PDR) and incentive-based
+DR (IDR). PDR programs help the consumers to change their consumption pattern
+with time-varying energy prices.
+
+Debate on PDR and IDR over the world.
+
+The proposed cost-operation model of a scalable grid-connected DC MG is 
+a nonlinear programming model that also considers bus voltages and 
+includes system losses in power balance constraint.
+
+Integration of Li-ion battery into an MG system requires its degradation
+cost-modeling for effective and efficient operation.
+
+Increasing cell impedance and decreasing battery capacity due to unwanted side
+reactions lead to fast degradation of battery [32,33]. Hence, the battery 
+chemistry and its scheduling operation plays a major role in affecting battery
+cyclelife. The most important parameters in battery degradation are **energy 
+capacity** and **cyclelife**.
+
+They depend on:
+- temperature;
+- depth of discharge (DOD);
+- state of charge (SOC);
+- charge and discharge rates (c-rates);
+- battery application;
+- type of battery;
+- battery manufacturer.
+
+Battery degradation modeling becomes unrealized as the effects of these 
+degradation factors cannot be analyzed and modeled individually. Therefore,
+ the most important degradation factors are considered to be temperature, DOD,
+SOC, and c-rate.
+
+Several studies have shown that SOC can also be defined in the form of a DOD.
+A battery with DOD of d completes its charge-discharge cycle by discharging 
+from 100% SOC to (100 )% − d SOC and then charging back to 100% SOC.
+
+LCOE is a widely used metric to determine the electricity generation cost of 
+various energy technologies over the system lifespan.
+
+The paragraph describes a proposed model involving a DC microgrid operator (DMO)
+and incentive-based demand response (IDR) in the context of a microgrid system. 
+In this model, consumers voluntarily grant control access to the DMO for their
+shiftable load entities, which refers to electrical loads that can be shifted 
+or rescheduled to different time periods. In return for granting control
+ access, consumers receive incentives from the DMO.
+
+The purpose of this model is to allow the DMO to adjust the shiftable loads to 
+specific periods within the microgrid system. These periods include off-peak 
+periods when electricity demand is relatively low, less generation supply
+ periods when the generation capacity is limited, and scheduled islanding
+ periods when the microgrid is operating in isolation from the main grid.
+
+By managing the shiftable loads in this way, the DMO aims to optimize the 
+overall operation of the microgrid while still adhering to system constraints. 
+This approach can help improve the efficiency and reliability of the microgrid 
+system by effectively utilizing available resources and minimizing strain on 
+the system during periods of high demand or limited generation supply.
+
+Shiftable loads: 
+Heating, ventilation, and air conditioning (HVAC), dishwasher, electric
+water heater, electric vehicle, and lightning are few examples.
+
+In the continuation of the paper, it is mentioned that various types of 
+shiftable loads can be used in demand response (DR) within the context of the 
+DC microgrid (DC MG) energy management model. Examples of such shiftable loads 
+include heating, ventilation, and air conditioning (HVAC) systems, dishwashers,
+ electric water heaters, electric vehicles (EVs), and lighting.
+
+However, incorporating all these different types of shiftable loads directly 
+into the DC MG energy management model can lead to convergence issues and 
+increased computational time. To address this challenge, the DMO takes a 
+different approach. Instead of individually modeling and optimizing each 
+shiftable load, the DMO aggregates the overall demand from the shiftable loads
+ at each time interval (t).
+
+By aggregating the demand from the shiftable loads, the DMO simplifies the 
+problem and enables efficient resolution of the developed energy management 
+model. This aggregation process allows the DMO to effectively manage the 
+combined demand from multiple shiftable loads without getting into the 
+complexities associated with modeling and optimizing each load separately.
+
+The energy management model considers a grid-connected scalable DC MG 
+consisting of a PV system, a Li-ion battery storage system, and shiftable and 
+critical load demand.
+
+In the continuation of the paper, it mentions the concept of "Time of Use" (TOU)
+ energy prices for buying electricity. TOU pricing is a tariff structure in 
+which the price of electricity varies based on the time of day. Under TOU 
+pricing, different rates are applied during specific time periods, typically
+ divided into peak, off-peak, and shoulder periods.
+
+The TOU energy prices indicate that the cost of purchasing electricity is 
+not constant throughout the day but rather varies depending on the time of use. This pricing structure is designed to incentivize consumers to shift their electricity consumption to off-peak or lower-demand periods, where electricity prices are typically lower.
+
+By incorporating TOU energy prices, the paper suggests that the proposed model
+ takes into account the varying cost of electricity throughout the day. This 
+pricing information can be used as a factor in the decision-making process of 
+the DMO when optimizing the scheduling and control of shiftable loads within 
+the DC microgrid system. By considering TOU energy prices, the model can aim
+ to reduce overall electricity costs by strategically shifting the usage of 
+shiftable loads to times when electricity prices are lower.
+
+The DC MG operator is a human-to-machine system that performs energy management operation with the help of local controllers
+and a SCADA platform.
+
+An optimization model was developed to minimize the operating cost of a DC 
+microgrid, which includes:
+- aging factors-dependent practical degradation cost model of a Li-ion battery;
+- islanding-dependent demand response incentive to encourage active 
+participation of customers during scheduled maintenance of grid-tie line.
+- Levelized cost of photovoltaic system;
+- System losses and nodal voltages;
+

@@ -1,0 +1,88 @@
+The DC microgrids can be used for remote area electrification of countrysides.
+
+The paper proposes a two-stage supervisory energy management system for optimal 
+operation of PV/Wind/Tidal microgrid with one-time communication to avoid 
+excessive use of communication bandwidth in real-time.
+
+MGs suffer from control and coordination problems originated from 
+inter-temporal operation of ESSs and intermittent nature of RESs. In this 
+regard, an energy management system (EMS) is required to mitigate these 
+issues and optimizing the MG energy management operation over long duration.
+
+MG energy management system performs optimal scheduling of MG system against 
+defined objectives in the domains of economics, environment, and reliability
+ among others. EMS is the tertiary layer of MG control and in hierarchy it
+operates above the control and power management levels, i.e above
+primary and secondary layers respectively.
+
+Control level ensures voltage and current regulation, while power management
+ level deals with harmonic compensation, line limits, and voltage and frequency
+restoration. Therefore, EMS layer ensures operational efficiency while also 
+governing lower layers of control to satisfy the system stability and 
+performance requirements.
+
+The author describes optimal, sub-optimal and not optimal methods of EMS.
+
+Critiques of previous works:
+- The practical battery degradation cost model is ignored;
+- have not considered the **optimal** scheduling taking into account the 
+battery lifetime degradation. 
+- Load shedding and battery cyclelife limitations.
+- EMS strategy for low generation periods is not considered.
+
+Pros for the paper:
+- considers EMS with optimal resource scheduling;
+- battery degradation cost.
+- Mathematical formulation of EMS is generic in nature and can be applied to 
+other MG as well.
+
+Roles of EMS:
+- An EMS is used for supervisory control of DC MG;
+- EMS performs the operation of data collection, where it stores the data of 
+load demand, resource availability, etc. EMS collects and stores
+data from energy sources and load to perform future forecasting and
+system analysis. Determines day-ahead optimal decision strategies.
+- EMS also performs scheduling operation in two stages (optimization and 
+adjustment), where it efficiently determines a dayahead schedule of all 
+energy sources. 
+- EMS acts as a coordinator for information exchange to local controller. All 
+local controllers of RESs operate in either MPPT or power curtailment modes.
+
+Two stages EMS:
+- Optimizations:
+Forecasted generation and load profiles, operating costs and
+penalty data, DERs operational limits, and DC MG system data are sent
+to the optimization model for determining decision strategies. These
+scheduled strategies are then sent to the adjustment stage.
+
+Modeled with mixed-integer linear programming (MILP)
+
+- adjustments.
+The adjusted day-ahead scheduled strategies are then sent to the adjustment 
+stage. The adjusted day-ahead scheduled decisions are forwarded to local 
+controllers.
+
+The centralized EMS, in addition to high utilization of communication 
+bandwidth, faces security threat due to constant data and information sharing 
+with the central controller. In this regard, a modified communication 
+strategy is proposed for information sharing among local controllers and EMS.
+Once the EMS performs otpimization, the modified decisions are communicated
+to other participants **only once** to maximally avoid security threats and use
+minimum communication bandwidth in real-time.
+
+The adjustments of scheduling decisions of the EMS optimization model
+are based on the mismatching of the power generation and demand:
+- Demand + losses > scheduled generation: EMS sends optmal decisions to local
+controllers of RES.
+- Demand + losses < scheduled generation: Operation in power limitation mode.
+
+all RESs either generate maximum power or curtail power generation as decided 
+by EMS.
+
+Battery acts as a grid-forming converter, not only balances the power 
+differences, but also tends to stabilize the DC bus voltage through the 
+bidirectional converter.
+
+The EMS optimization model considers sampling time equal to 1h for 24h 
+scheduling horizon. Thus, takes 24 discrete time indexes.
+
